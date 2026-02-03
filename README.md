@@ -2,7 +2,6 @@
 
 Ce projet est une plateforme d'**ingénierie financière quantitative** permettant de construire, d'optimiser et de visualiser des portefeuilles de cryptomonnaies. Il combine la rigueur mathématique des modèles de **Markowitz** et de **Black-Litterman** avec une interface utilisateur moderne et interactive.
 
-[Image of Streamlit dashboard for financial analysis]
 
 ---
 
@@ -26,8 +25,6 @@ Ce projet est une plateforme d'**ingénierie financière quantitative** permetta
 L'objectif est de minimiser la variance $\sigma_p^2$ pour un niveau de rendement attendu :
 $$\min_{w} w^T \Sigma w$$
 Sous contrainte de plein investissement $\sum w_i = 1$.
-
-[Image of Markowitz Efficient Frontier]
 
 ### 2. Modèle de Black-Litterman
 Le moteur utilise une approche bayésienne pour fusionner les rendements d'équilibre du marché ($\Pi$) avec les vues subjectives de l'investisseur ($Q$) :
